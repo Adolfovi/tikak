@@ -1,0 +1,120 @@
+#presentation{
+	background-color: #dbcf94;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    margin: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 10px;
+
+box-shadow:10px 11px 20px 0px #000000;
+}
+
+body{
+	font-family: Arial;
+    background-color: #fff7e0;
+
+}
+
+#begin{
+width: 110px;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 10px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+.grid-container {
+display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #a06700;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-items: center;
+    width: 636px;
+    border-radius: 10px;
+}
+.grid-item {
+background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+#bigcontainer{
+display: none;
+    justify-content: center;
+    margin-top: 5%;
+flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+
+
+
+#points{
+
+	font-size: 50px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    zoom: 50%;
+  }
+  #bigcontainer{
+  	zoom: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 485px) {
+  body {
+    zoom: 50%;
+  }
+  #bigcontainer{
+  	zoom: 80%;
+  }
+
+}
+
+
+
+#seconds{
+background-color: white;
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+
+
+
+.ordened-container{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+  
+}
